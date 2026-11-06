@@ -31,7 +31,7 @@ test("Não deve criar uma conta com nome inválido", async () => {
     const input = {
         name: "John",
         email: "teste@gmail.com",
-        document: "123teste",
+        document: "50829622055",
         password: "Teste1234"
     }
     const responseSignup = await fetch("http://localhost:3000/signup", {
@@ -49,7 +49,7 @@ test("Não deve criar uma conta com email inválido", async () => {
     const input = {
         name: "John Doe",
         email: "teste",
-        document: "123teste",
+        document: "50829622055",
         password: "Teste1234"
     }
     const responseSignup = await fetch("http://localhost:3000/signup", {
@@ -85,7 +85,7 @@ test("Não deve criar uma conta com senha inválida", async () => {
     const input = {
         name: "John Doe",
         email: "teste@gmail.com",
-        document: "123teste",
+        document: "50829622055",
         password: "teste"
     }
     const responseSignup = await fetch("http://localhost:3000/signup", {

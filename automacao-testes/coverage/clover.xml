@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1793510734501" clover="3.2.0">
-  <project timestamp="1793510734501" name="All files">
+<coverage generated="1793570172877" clover="3.2.0">
+  <project timestamp="1793570172877" name="All files">
     <metrics statements="23" coveredstatements="23" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2" elements="39" coveredelements="39" complexity="0" loc="23" ncloc="23" packages="1" files="1" classes="1"/>
     <file name="validateCpf.ts" path="C:\Adriano\Projetos\Aulas\automacao-testes\src\validateCpf.ts">
       <metrics statements="23" coveredstatements="23" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2"/>
